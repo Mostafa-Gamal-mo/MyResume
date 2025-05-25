@@ -1,266 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Mostafa Gamal</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Mostafa Gamal</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <link href="assets/img/lock.jpg" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/lock.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+    <header id="header" class="d-flex flex-column justify-content-center">
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"
+              ><i class="bx bx-home"></i> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"
+              ><i class="bx bx-user"></i> <span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#resume" class="nav-link scrollto"
+              ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto"
+              ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"
+              ><i class="bx bx-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
-        </li>
-        <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Mostafa Gamal</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer,Front-End DEV. ,  Freelancer"></span></p>
-      <div class="social-links">
-        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter" ></i></a> -->
-        <a href="https://web.facebook.com/mostafa.gamal.144" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/mostafa_jamy/?fbclid=IwAR03J2jAUIc_IgE4Y3K59JXHju9mo79NBjiZGqvxYNm0lZ2jphzILjm2wVo"
-          class="instagram"><i class="bx bxl-instagram"></i></a>
-        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-        <a href="https://github.com/Mostafa-Gamal-mo" class="google-plus"><i
-            class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/mostafa-gamal-b18766272/" class="linkedin"><i
-            class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Designed and developed responsive <span class="fw-bold">web Pages</span> using HTML, CSS, and JavaScript
-            Implemented user interface designs using Angular and Bootstrap
-            Worked with the development team to integrate front-end and back-end functionality</p>
+    <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Mostafa Gamal</h1>
+        <p>
+          I'm
+          <span
+            class="typed"
+            data-typed-items="Developer,Front-End DEV. ,  Freelancer"
+          ></span>
+        </p>
+        <div class="social-links">
+          <a href="https://web.facebook.com/mostafa.gamal.144" class="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/mostafa_jamy/?fbclid=IwAR03J2jAUIc_IgE4Y3K59JXHju9mo79NBjiZGqvxYNm0lZ2jphzILjm2wVo"
+            class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Mostafa-Gamal-mo" class="google-plus"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/mostafa-gamal-b18766272/"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
         </div>
+      </div>
+    </section>
+    <!-- End Hero -->
 
-        <div class="row">
-          <div class="col-lg-4  text-center">
-            <img src="assets/img/portfolio/Capture3.PNG.PNG" class="img-fluid " alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Frontend Developer</h3>
-            <p class="fst-italic">
-              create and maintain user-friendly, responsive, and visually appealing user interfaces that deliver a great
-              user experience.
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About</h2>
+            <p>
+              Designed and developed responsive
+              <span class="fw-bold">web Pages</span> using HTML, CSS, and
+              JavaScript Implemented user interface designs using Angular and
+              Bootstrap Worked with the development team to integrate front-end
+              and back-end functionality
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 Sep 1994</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://mostafa-gamal-mo.github.io/angulat-portfolio/contact</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>01114833834</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Cairo, Egypt</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+          </div>
 
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img
+                src="assets/img/MostafaGamal.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
+              <h3>Frontend Developer</h3>
+              <p class="fst-italic">
+                create and maintain user-friendly, responsive, and visually
+                appealing user interfaces that deliver a great user experience.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Birthday:</strong> <span>17 Sep 1994</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Phone:</strong> <span>01061485404</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>City:</strong> <span>Cairo, Egypt</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Freelance:</strong> <span>Available</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                      <span>30</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Degree:</strong> <span>Bachelor</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>PhEmailone:</strong
+                      ><span>mostafagamal9994@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <p>
+              These are just some of the key skills that are essential for a
+              successful career as a frontend developer. By continuously
+              developing and expanding my skill set, me can stay competitive in
+              the ever-changing world of web development.
+            </p>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >JavaScript - Typescript <i class="val">75%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill">Angular <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >Bootstrap - TailWind<i class="val">80%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Git/GitHub<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Resume</h2>
+            <p>
+              To obtain a Frontend Developer position in a dynamic environment
+              where I can contribute my skills and experience to create
+              user-friendly, responsive, and visually appealing websites and web
+              applications.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="resume-title">Sumary</h3>
+              <div class="resume-item pb-0">
+                <h4>Mostafa Gamal</h4>
+                <p>
+                  <em
+                    >Innovative and deadline-driven FrontEnd Developer with 3+
+                    years of experience designing and developing Web material
+                    from initial concept to final, polished deliverable.</em
+                  >
+                </p>
+                <ul>
+                  <li>Gesr Al Suez,Cairo, Egypt</li>
+                  <li>(+20) 01061485404</li>
+                  <li>(+20) 01030357516</li>
+                  <li>mostafagamal9994@gmail.com</li>
                 </ul>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>28</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                  <li><i class="bi bi-chevron-right"></i>
-                    <strong>PhEmailone:</strong><span>mostafagamal9994@gmail.com</span>
-                  </li>
-                </ul>
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bachelor of Computer Science</h4>
+                <h5>2014 - 2018</h5>
+                <p>
+                  <em
+                    >High Institute of Computer Science and Information
+                    Systems</em
+                  >
+                </p>
+                <p>
+                  <strong>Graduation Grade: </strong>( Good +) <br /><strong
+                    >Graduation project: </strong
+                  >University schedule Creator (Grade: V.Good ).
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Full Stack Diploma</h4>
+                <h5>2022</h5>
+                <p><em>Route Academy</em></p>
+                <p>
+                  9-Month Diploma <strong>Track:</strong> Full Stack .Net
+                  developer
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Full Stack Diploma</h4>
+                <h5>2021</h5>
+                <p><em>Udemy </em></p>
+                <p>Front-End <strong>Track:</strong> THE WEB DEVELOPMENT</p>
               </div>
             </div>
-            <!-- <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
-              ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
-              Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p> -->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>These are just some of the key skills that are essential for a successful career as a frontend developer.
-            By continuously developing and expanding my skill set, me can stay competitive in the ever-changing world of
-            web development.
-          </p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript/Typescript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Angular <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Object-oriented programming<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Git/GitHub<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>To obtain a Frontend Developer position in a dynamic environment where I can contribute my skills and
-            experience to create user-friendly, responsive, and visually appealing websites and web applications.
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Mostafa Gamal</h4>
-              <p><em>Innovative and deadline-driven FrontEnd Developer with 1+ years of experience designing and
-                  developing Web material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Gesr Al Suez,Cairo, Egypt</li>
-                <li>(+20) 01114833834</li>
-                <li>(+20) 01030357516</li>
-                <li>mostafagamal9994@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Computer Science</h4>
-              <h5>2014 - 2018</h5>
-              <p><em>High Institute of Computer Science and Information Systems</em></p>
-              <p><strong>Graduation Grade: </strong>( Good +)
-                <br><strong>Graduation project: </strong>University schedule Creator
-                (Grade: V.Good ).
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Full Stack Diploma</h4>
-              <h5>2022 - 2013</h5>
-              <p><em>Route Academy</em></p>
-              <p>9-Month Diploma
-                <strong>Track:</strong> Full Stack .Net developer
-
-
-              </p>
-            </div>
-          </div>
-          <!-- <div class="col-lg-6">
             <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
               <h4>Senior graphic design specialist</h4>
@@ -289,122 +376,196 @@
               </ul>
             </div>
           </div> -->
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>It takes great pains to benefit. His needs result from something that actually drives him away. Let them be
-            what they want. Anyone whom anyone desires. And no one who hinders receives the others. Because he should
-            flee in this office of convenience, which is here.
-            
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Angular/Api</li>
-              <li data-filter=".filter-card">CRUD</li>
-              <li data-filter=".filter-web">PORTFOLIO</li>
-            </ul>
           </div>
         </div>
+      </section>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>
+              As a dedicated Front-End Angular Developer, I build robust,
+              scalable, and intuitive web applications. I specialize in Angular,
+              TypeScript, and modern web technologies. I focus on creating
+              seamless, visually appealing, and highly functional user
+              experiences, collaborating effectively to deliver cutting-edge
+              solutions.
+            </p>
+          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/angular.PNG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Angular</h4>
-                <p>Portfolio</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/angular.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Angular"><i class="bx bx-plus"></i></a>
-                  <a href="https://mostafa-gamal-mo.github.io/angulat-portfolio/" class="portfolio-details-lightbox"
-                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
+          <div class="row">
+            <div
+              class="col-lg-12 d-flex justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Angular/Api</li>
+                <li data-filter=".filter-card">CRUD</li>
+                <li data-filter=".filter-web">PORTFOLIO</li>
+              </ul>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Api.PNG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Yammy</h4>
-                <p>API-App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Api.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Yammy-API"><i class="bx bx-plus"></i></a>
-                  <a href="https://mostafa-gamal-mo.github.io/yummy-Api/" class="portfolio-details-lightbox"
-                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/angular.PNG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Angular</h4>
+                  <p>Portfolio</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/angular.PNG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Angular"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://mostafa-gamal-mo.github.io/angulat-portfolio/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/M.crud.PNG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>CRUD System</h4>
-                <p>JavaScript</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/M.crud.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="CRUD"><i class="bx bx-plus"></i></a>
-                  <a href="https://mostafa-gamal-mo.github.io/crudtwo/" class="portfolio-details-lightbox"
-                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/Api.PNG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Yammy</h4>
+                  <p>API-App</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/Api.PNG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Yammy-API"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://mostafa-gamal-mo.github.io/yummy-Api/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cruds.PNG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>CRUD System</h4>
-                <p>JavaScript</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cruds.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="CRUD"><i class="bx bx-plus"></i></a>
-                  <a href="https://mostafa-gamal-mo.github.io/crudOne/" class="portfolio-details-lightbox"
-                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/M.crud.PNG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>CRUD System</h4>
+                  <p>JavaScript</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/M.crud.PNG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="CRUD"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://mostafa-gamal-mo.github.io/crudtwo/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/port.PNG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>portfolio</h4>
-                <p>Html/Css/Bootstrap/Fontawesome</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/port.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="portfolio"><i class="bx bx-plus"></i></a>
-                  <a href="https://mostafa-gamal-mo.github.io/angora/" class="portfolio-details-lightbox"
-                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/cruds.PNG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>CRUD System</h4>
+                  <p>JavaScript</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/cruds.PNG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="CRUD"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://mostafa-gamal-mo.github.io/crudOne/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/port.PNG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>portfolio</h4>
+                  <p>Html/Css/Bootstrap/Fontawesome</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/port.PNG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="portfolio"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://mostafa-gamal-mo.github.io/angora/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -467,70 +628,65 @@
               </div>
             </div>
           </div> -->
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row ">
-
-          <div class="col-lg-6 mt-sm-5">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Sanad Abd El-Hakeem, Al Nozha , Cairo Governorate 4641132</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>mostafagamal9994@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>(+20) 01114833834</p>
-              </div>
-
-            </div>
-
           </div>
-          <div class="col-lg-6 mt-sm-5">
-            <div class="info">
-              <div class="address">
-                <i class="bx bxl-linkedin"></i>
-                <h4>Name </h4>
-                <p>Mostafa Gamal</p>
-              </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-              <div class="email">
-                <i class="bx bxl-facebook"></i>
-                <h4>Email:</h4>
-                <p>mostafa.gamal.144</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>(+20) 01030357516</p>
-              </div>
-
-            </div>
-
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
           </div>
 
-          <!-- <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="row">
+            <div class="col-lg-6 mt-sm-5">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location</h4>
+                  <p>
+                    Sanad Abd El-Hakeem, Al Nozha , Cairo Governorate 4641132
+                  </p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email</h4>
+                  <p>mostafagamal9994@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call</h4>
+                  <p>(+20) 01061485404</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-sm-5">
+              <div class="info">
+                <div class="address">
+                  <i class="bx bxl-linkedin"></i>
+                  <h4>LinkedIn</h4>
+                  <p>Mostafa Gamal</p>
+                </div>
+
+                <div class="email">
+                  <i class="bx bxl-facebook"></i>
+                  <h4>FaceBook</h4>
+                  <p>mostafa.gamal.144</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call</h4>
+                  <p>(+20) 01030357516</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -556,55 +712,58 @@
             </form>
 
           </div> -->
-
+          </div>
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Mostafa Gamal</h3>
+        <p>
+          "The best way to predict the future is to create it." - Peter Drucker
+        </p>
+        <div class="social-links">
+          <a href="https://web.facebook.com/mostafa.gamal.144" class="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/mostafa_jamy/?fbclid=IwAR03J2jAUIc_IgE4Y3K59JXHju9mo79NBjiZGqvxYNm0lZ2jphzILjm2wVo"
+            class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/mostafa-gamal-b18766272/"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Mostafa-Gamal-mo" class="google-plus"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
+    </footer>
 
-  </main><!-- End #main -->
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Mostafa Gamal</h3>
-      <p>And either he who flees them is nothing. With great physical effort, choosing a flight is often the most
-        convenient thing to do.</p>
-      <div class="social-links">
-        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-        <a href="https://web.facebook.com/mostafa.gamal.144" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/mostafa_jamy/?fbclid=IwAR03J2jAUIc_IgE4Y3K59JXHju9mo79NBjiZGqvxYNm0lZ2jphzILjm2wVo"
-          class="instagram"><i class="bx bxl-instagram"></i></a>
-        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-        <a href="https://www.linkedin.com/in/mostafa-gamal-b18766272/" class="linkedin"><i
-            class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Mostafa-Gamal-mo" class="google-plus"><i
-            class="bi bi-github"></i></a>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-      </div>
-
-    </div>
-  </footer>
-  <!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
